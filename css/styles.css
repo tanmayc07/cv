@@ -1,0 +1,233 @@
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  background-color: #edf8fb;
+}
+
+h1 {
+  margin: 0px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 5.2rem;
+  color: #83d4ed;
+}
+
+.animate1 {
+  animation-name: animate1;
+  position: relative;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-timing-function: ease-in;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.animate2 {
+  animation-name: animate2;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+@keyframes animate2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate3 {
+  animation-name: animate2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+@keyframes animate3 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  line-height: 2;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #9fdef7;
+}
+
+h2 {
+  color: #9fdef7;
+  font-size: 3rem;
+}
+span {
+  text-decoration: underline;
+}
+
+h2,
+h3,
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.top-container p {
+  margin: 0px;
+  font-size: 2.3rem;
+  font-weight: normal;
+  color: #9fdef7;
+}
+
+.top-container {
+  height: 100vh;
+  background-color: #2fc5ca;
+}
+
+.cloud-top {
+  padding-top: 60px;
+  position: relative;
+  left: 250px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 590px;
+}
+
+.mountain {
+  position: relative;
+  top: 120px;
+  height: 520px;
+}
+
+.middle-container {
+  padding: 60px;
+}
+
+.profile {
+  padding: 20px;
+}
+
+.profile p {
+  letter-spacing: 1px;
+  line-height: 2;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.profile > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+hr {
+  border: 10px #616666 dotted;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.breakdance-img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.data-img {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background: #3dedf6;
+  background-image: -webkit-linear-gradient(top, #3dedf6, #1ed0c8);
+  background-image: -moz-linear-gradient(top, #3dedf6, #1ed0c8);
+  background-image: -ms-linear-gradient(top, #3dedf6, #1ed0c8);
+  background-image: -o-linear-gradient(top, #3dedf6, #1ed0c8);
+  background-image: linear-gradient(to bottom, #3dedf6, #1ed0c8);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 0px #000000;
+  -webkit-box-shadow: 1px 1px 5px 0px #000000;
+  -moz-box-shadow: 1px 1px 5px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.btn:hover {
+  border: solid #33ede4 1px;
+  background: #1ec8d0;
+  background-image: -webkit-linear-gradient(top, #1ec8d0, #3df6b9);
+  background-image: -moz-linear-gradient(top, #1ec8d0, #3df6b9);
+  background-image: -ms-linear-gradient(top, #1ec8d0, #3df6b9);
+  background-image: -o-linear-gradient(top, #1ec8d0, #3df6b9);
+  background-image: linear-gradient(to bottom, #1ec8d0, #3df6b9);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: rgb(47, 197, 202);
+  padding: 40px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #8de4df;
+  padding: 0px 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer-link:hover {
+  opacity: 0.5;
+}
+
+.copyright {
+  color: #f5f5f5;
+}
