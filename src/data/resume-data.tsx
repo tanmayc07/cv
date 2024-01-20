@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "Feb 2021",
       end: "Mar 2021",
       description:
-        "Trained extensively on AI/ML Concepts in Python, leveraging libraries such as Scikit-learn, Matplotlib, Seaborn, and Pandas. Created and fine-tuned machine learning models for a house price prediction problem, achieving a 15% increase in predictive accuracy compared to baseline models. Processed and analyzed a dataset of over 100K samples, deriving insights leading to a 35% improvement in model performance through feature engineering and selection.",
+        "Trained extensively and acquired expertise in AI/ML Concepts predominantly with Python programming language, leveraging libraries such as Scikit-learn, Matplotlib, Seaborn, and Pandas. Created and fine-tuned machine learning models for a house price prediction problem, achieving a 15% increase in predictive accuracy compared to baseline models. Processed and analyzed a dataset of over 100K samples, deriving insights leading to a 35% improvement in model performance through feature engineering and selection.",
     },
     {
       company: "Trivia Softwares",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "June 2019",
       end: "August 2019",
       description:
-        "Led contributions to various projects involving Java applications with GUI and Database Connectivity, demonstrating proficiency in Java development. Spearheaded development of a comprehensive Student Management System Software Project using Java Swing Library, ensuring",
+        "Led and contributed to diverse Java application projects, skillfully incorporating Graphical User Interfaces (GUI) and Database Connectivity, demonstrating a high level of proficiency in Java development. Spearheaded development of a Student Management System Software Project utilizing Java Swing Library, ensuring a user-friendly interface at frontend and achieved a 20% improvement in efficiency and user satisfaction through intuitive design and functional implementation.",
     },
   ],
   skills: [
